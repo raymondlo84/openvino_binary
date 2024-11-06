@@ -4,15 +4,18 @@ A quick demo on how to build a binary executable with Python and OpenVINO
 
 # Usage
 
+Create the virtual environment and activate it
 ```
 python -m venv venv
 venv/Script/activate
 ```
+
+Install all the required prereq for this demo
 ```
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
-# Test and see results with Python
+# Test and verify results with Python 
 ```
 python main.py 
 ```
